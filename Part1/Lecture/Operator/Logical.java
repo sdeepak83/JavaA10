@@ -10,7 +10,9 @@ public class Logical {
         char ch3 = 'E';
 
         boolean result1 = (ch3 != ch2) && (ch3 > ch1);
+        boolean result2 = !((false) == (ch1 == ch2) == (ch2 != ch3) || (ch3 != ch2) && (ch3 >= ch1));
         System.out.println(result1);
+        System.out.println(result2);
 
         // 2nd
 
